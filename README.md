@@ -10,7 +10,7 @@ https://sascha-davidson.github.io/fix-the-flow-interactive-website/
 
 ## Kenmerken
 ### Hamburger/menu
-Door middel van een eventListener wacht ik voor een click event op de hamburger menu button. Deze bevat een aria-expanded attribuut. Als blijkt dat deze false is, betekent het dat het hamburger icoontje in een kruisje moet veranderen en visa versa wat door CSS wordt afgehandeld. Daarnaast toggled dit event een "open" class op de navigatie, die overigens hetzelfde element is als op de desktop versie.
+Met JavaScript toggle ik een class. Ik heb mijn mobile nav een transform: translate x 100% gezet zodat het net buiten de scherm vals. daarna toggle ik een class met transform: translate x 100% om mijn nav in mijn website te krijgen. Verder heb ik veel css moeten gebruiken om de zelfde html tekst te restylen om het mooi te krijgen. Hier heb ik veel tijd in gestoken om het goed te krijgen. 
 
 ## CSS
 De CSS van de nav/burger
