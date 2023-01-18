@@ -11,8 +11,13 @@ De website word niet alleen bezocht door mensen op desktop, maar ook door mensen
 ## User Story
 Als mobiele gebruiker wil ik door middel van een hamburger-menu, alsnog toegang hebben tot de volledige navigatie van de website.
 
-Wireflow
+## Wireflow
 
 ![20221209_114522](https://user-images.githubusercontent.com/112861160/206687654-c9cc6e60-ac0f-4458-b33a-d0dc6563cd73.jpg)
+
+## Beschrijving
+
+
+
 
 ![image](https://user-images.githubusercontent.com/112861160/213194911-7e7fc41d-f6ae-4f20-a487-7fc0b437adf0.png)
