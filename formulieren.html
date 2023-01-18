@@ -1,0 +1,642 @@
+<!DOCTYPE html>
+<html lang="NL" dir="ltr">
+<!-- Sascha Davidson -->
+
+<head>
+  <meta charset="utf-8">
+  <meta name="keywords" content="wcaw" />
+  <meta name="description" content="all human accessible website" />
+  <meta name="author" content="Sascha Davidson" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+  <script src="https://kit.fontawesome.com/b6f0c431c5.js" crossorigin="anonymous"></script>
+
+  <link rel="stylesheet" href="styles/styles.css">
+  <link rel="stylesheet" href="styles/prism.css">
+
+  <title>Formulieren</title>
+  <link rel="icon" type="image/png" href="assets/va-favicon.svg" />
+</head>
+
+<body>
+
+  <header>
+    <div class="site-header">
+      <div class="site-identity">
+        <a href="index.html">
+          <img src="assets/vervoerregio-logo.svg" alt="Vervoerregio Amsterdam">
+
+        </a>
+      </div>
+
+      <section id="burger" class="burger">
+        <section>
+          <p>menu</p>
+        </section>
+        <section>
+          <div class="line1"></div>
+          <div class="line2"></div>
+          <div class="line3"></div>
+        </section>
+      </section>
+
+
+      <nav>
+        <ul class="main-nav">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="kennisbank.html">Kennisbank</a></li>
+          <li><a href="wet-en-regelgeving.html">Wet- en regelgeving</a></li>
+          <li><a href="richtlijnen.html">Richtlijnen</a></li>
+          <li><a href="checklist.html">checklist</a></li>
+          <button id="filter">Filter</button>
+
+        </ul>
+
+      </nav>
+
+    </div>
+
+    <dialog id="favDialog">
+      <form>
+        <div class="dialog-content">
+          <label><input type="checkbox" id="mode"> Donker moden</label>
+          <label><input type="checkbox" id=""> Laag / hoog contrast</label>
+
+          <label><input type="checkbox" id=""> Lettergrootte</label>
+          <label><input type="checkbox" id=""> Bewegend beeld</label>
+
+        </div>
+        <button value="cancel">Terug</button>
+
+
+      </form>
+    </dialog>
+
+    <section class="vervoerregio-path-box">
+      <div class="vervoerregio-path-box-devided">
+        <section class="responsive-width"></section>
+        <section class="logo-width"></section>
+        <?xml version="1.0" encoding="UTF-8"?>
+        <svg class="vervoerregio-path-curve" id="Laag_1" data-name="Laag 1" xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 990.38 392.17">
+          <defs>
+
+          </defs>
+          <path class="cls-1" d="M0,392.17V0H990.38C495.19,0,495.19,392.17,0,392.17Z" />
+        </svg>
+      </div>
+
+
+
+      <div id="socialmedia" class="socialmedias-button">
+
+        <a href="https://www.facebook.com/vervoerregio" class="button">
+          <div class="icon">
+            <i class="fab fa-facebook"></i>
+          </div>
+          <span>Facebook</span>
+        </a>
+
+
+        <a href="https://www.twitter.com/vervoerregio" class="button">
+          <div class="icon">
+            <i class="fab fa-twitter"></i>
+          </div>
+          <span>Twitter</span>
+        </a>
+
+        <a href="https://www.instagram.com/vervoerregio/" class="button">
+          <div class="icon">
+            <i class="fab fa-instagram"></i>
+          </div>
+          <span>Instagram</span>
+        </a>
+
+        <a href="https://www.linkedin.com/company/vervoerregio-amsterdam/?originalSubdomain=nl" class="button">
+          <div class="icon">
+            <i class="fab fa-linkedin"></i>
+          </div>
+          <span>Linkedin</span>
+        </a>
+
+        <a href="#" class="button">
+          <div class="icon">
+            <i class="fab fa-github"></i>
+          </div>
+          <span>Github</span>
+        </a>
+      </div>
+    </section>
+
+  </header>
+
+  <div class="header-style-afbeeldingen">
+
+    <section class="header-style-content-3">
+      <section class="header-style-title">
+        <h1>Formulieren</h1>
+      </section>
+    </section>
+  </div>
+
+  <main>
+    <section class="content-richtlinen">
+      <div class="afbeelding-content">
+        <section class="title-afbeeldingen">
+
+          <p>
+            Formulieren kunnen toegankelijk worden gemaakt door een combinatie van techniek, vormgeving en tekst. Door
+            een formulier in de code goed op te bouwen is het te bedienen met het toetsenbord, weet een bezoeker hoe een
+            invoerfout opgelost kan worden, en kunnen bezoekers die hulptechnologieën gebruiken het formulier ook goed
+            invullen.
+            <br><br>
+            Een formulier kan bestaan uit verschillende formuliervelden:
+          </p>
+
+          <ul>
+            <li>Invoervelden</li>
+            <li>Selectievakjes</li>
+            <li>Keuzerondjes</li>
+            <li>Keuzelijsten</li>
+            <li>enz.</li>
+
+          </ul>
+        </section>
+
+        <div class="details-box-shadow">
+
+          <details>
+            <summary>
+              <i class="fa-solid fa-caret-down"></i>
+              <h3>Zorg voor duidelijke labels en instructies bij invoervelden</h3>
+              <label><input type="checkbox">
+                <i class="fa-solid fa-check"></i>
+              </label>
+            </summary>
+
+            <section class="detail-list">
+              <h4>Zorg voor labels bij invoervelden</h4>
+              <p>Labels zijn het belangrijkste element voor een toegankelijk formulier. Zorg voor labels bij alle
+                invoervelden of ander formulierelementen zoals selectievakjes, keuzerondjes en keuzelijsten. Een
+                duidelijk label beschrijft precies wat er in het veld ingevuld moet worden, is zichtbaar voor alle
+                bezoekers en staat dichtbij het invoerveld.
+                <br><br>
+                Het label moet in de code worden gekoppeld aan het invoerveld. Zo maak je het invoerveld ook
+                toegankelijk voor bezoekers die gebruik maken van hulptechnologieën. Het label is de naam van het
+                invoerveld. Een label vergroot ook het klikbare gebied waarmee een invoerveld kan worden geselecteerd.
+                Dit is handig voor bijvoorbeeld bezoekers met een motorische beperking.
+              </p>
+
+              <br><br>
+              <h4>Koppel labels in de code aan een invoerveld</h4>
+              <p>Labels worden geplaatst met het <code>&lt;label&gt;</code>-element. Het koppelen van een
+                <code>&lt;label&gt;</code>-element aan
+                een
+                formulierelement gebeurt met een <code>&lt;for&gt;</code> / <code>&lt;id&gt;</code>-koppeling. Geef
+                hiervoor het <code>&lt;label&gt;</code>-element een
+                <code>&lt;for&gt;</code>-attribuut en het bijbehorende formulierelement een
+                <code>&lt;id&gt;</code>-attribuut met dezelfde waarde.
+              </p>
+              <p>In de code ziet dat er zo uit:</p>
+              <script type="text/plain" class="language-html"><label for="veld1">Naam:</label>
+                <input type="text" id="veld1">
+                
+                <label for="veld2">Kies je kleur:</label>
+                <select id="veld2">
+                  <option value="0">Rood</option>
+                  <option value="1">Groen</option>
+                  <option value="2">Blauw</option>
+                </select>
+                
+                <input type="checkbox" id="veld3">
+                <label for="veld3">Meld mij aan voor de nieuwsbrief</label></script>
+
+              <p>Er zijn ook manieren om de labels visueel te verbergen. Vraag je dan wel goed af waarom je dat zou
+                willen doen. Het invoerveld verliest dan het grotere klikbare gebied en het wordt misschien minder
+                duidelijk voor bezoekers. Als het label toch visueel wordt verborgen, zorg er dan er wel voor dat er een
+                label beschikbaar is voor hulptechnologieën. Gebruik hiervoor het attribuut
+                <code>&lt;aria-label&gt;</code> , <code>&lt;aria-labelledby&gt;</code>
+                of een <code>&lt;title&gt;</code>-attribuut. Deze zijn niet zichtbaar.
+              </p>
+              <p>In de code ziet dat er zo uit:</p>
+              <script type="text/plain" class="language-html"><input type="text" aria-label="Naam"></script>
+
+              <br><br>
+              <h4>Groepeer meerdere secties van gerelateerde invoervelden</h4>
+              <p>Als een formulier meerdere secties van gerelateerde invoervelden heeft dan wordt een
+                <code>&lt;fieldset&gt;</code>-element gebruikt om deze te groeperen. Geef het
+                <code>&lt;fieldset&gt;</code>-element een label door een <code>&lt;legend&gt;</code>-element in het
+                <code>&lt;fieldset&gt;</code>-element te plaatsen. Hulptechnologieën gebruiken het
+                <code>&lt;legend&gt;</code>-element alsof het een onderdeel is van het label van de elementen in het
+                <code>&lt;fieldset&gt;</code>-element.
+                <br><br>
+                Het <code>&lt;fieldset&gt;</code>-element is vooral relevant voor het groeperen selectierondjes en
+                keuzevakjes maar kan ook worden gebruikt om andere invoervelden te groeperen.
+              </p>
+              <p>In de code ziet dat er zo uit:</p>
+              <script type="text/plain" class="language-html"><fieldset>
+                <legend>Ben jij al orgaandonor?</legend>
+              
+                <input type="radio" id="veld1">
+                <label for="veld1" value="ja">Ja, ik ben orgaandonor</label>
+              
+                <input type="radio" id="veld2">
+                <label for="veld2" value="nee">Nee, ik ben geen orgaandonor</label>
+              </fieldset></script>
+
+              <br><br>
+              <h4>Zorg voor instructies bij invoervelden</h4>
+              <p>Instructies geven een extra hint voor de invoer in het invoerveld. De instructies in een formulier
+                moeten aangeven of er verplichte velden zijn en eventueel of er een verplicht invoerformaat is.</p>
+
+              <br><br>
+              <h4>Geef aan dat een invoerveld verplicht is</h4>
+              <p>Het aangeven van een verplicht invoerveld kan in tekst of bijvoorbeeld met een asteriks (*). Zorg dat
+                deze aanduiding in het <code>&lt;label&gt;</code>-element is geplaatst.
+              </p>
+              <p>In de code ziet dat er zo uit:</p>
+              <script type="text/plain" class="language-html"><label for="veld1">Naam: (verplicht)</label>
+                <input type="text" id="veld1"></script>
+
+              <br><br>
+              <p>Als de instructies niet duidelijk per invoerveld worden benoemd dan hoort voorafgaand aan het eerste
+                invoerveld in tekst worden aangegeven op welke manier de verplichte velden zijn aangeduid.
+              </p>
+              <p>In de code ziet dat er zo uit:</p>
+              <script type="text/plain" class="language-html"><p>Alle velden met een * zijn verplicht.</p>
+
+                <label for="veld1">Naam: *</label>
+                <input type="text" id="veld1">
+                
+                <label for="veld2">Favoriete dier: *</label>
+                <input type="text" id="veld2"></script>
+
+              <br><br>
+              <p>Markeer verplichte velden ook in de code. Gebruik hiervoor bij voorkeur het
+                <code>&lt;aria-required&gt;</code>-attribuut.
+              </p>
+              <p>In de code ziet dat er zo uit:</p>
+              <script type="text/plain" class="language-html"><p>Alle velden met een * zijn verplicht.</p>
+
+                  <label for="veld1">Naam: *</label>
+                  <input type="text" id="veld1" aria-required="true">
+                  
+                  <fieldset>
+                    <legend>Ben jij al orgaandonor? *</legend>
+                  
+                    <input type="radio" id="veld2" value="ja" aria-required="true">
+                    <label for="veld2">Ja, ik ben orgaandonor</label>
+                  
+                    <input type="radio" id="veld3" value="nee" aria-required="true">
+                    <label for="veld3">Nee, ik ben geen orgaandonor</label>
+                  </fieldset></script>
+
+              <br><br>
+              <h4>Zorg voor instructies bij invoervelden</h4>
+              <p>Instructies geven een extra hint voor de invoer in het invoerveld. De instructies in een formulier
+                moeten aangeven of er verplichte velden zijn en eventueel of er een verplicht invoerformaat is.</p>
+
+              <br><br>
+              <h4>Geef het aan als er een verplicht invoerformaat is verplicht is</h4>
+              <p>Ook bij verplichte invoerformaten, zoals een postcode of een e-mailadres die moet worden ingevuld,
+                moeten blijken uit de instructies wat de eisen zijn aan de invoer. Dit kan direct in het
+                <code>&lt;label&gt;</code>-element.
+              </p>
+              <p>In de code ziet dat er zo uit:</p>
+              <script type="text/plain" class="language-html"><label for="veld1">Geboortedatum (dd-mm-jjjj):</label>
+                <input type="text" id="veld1"></script>
+
+              <br><br>
+              <p>Ook bij verplichte invoerformaten, zoals een postcode of een e-mailadres die moet worden ingevuld,
+                moeten blijken uit de instructies wat de eisen zijn aan de invoer. Dit kan direct in het
+                <code>&lt;label&gt;</code>-element.
+              </p>
+              <p>In de code ziet dat er zo uit:</p>
+              <script type="text/plain" class="language-html"><label for="veld1">Geboortedatum (dd-mm-jjjj):</label>
+                  <input type="text" id="veld1"></script>
+
+              <br><br>
+              <p>
+
+                Maar dit kan ook via het attribuut <code>&lt;aria-describedby&gt;</code> .
+
+
+              </p>
+              <p>In de code ziet dat er zo uit:</p>
+              <script type="text/plain" class="language-html"><label for="veld1">Geboortedatum (dd-mm-jjjj):</label>
+                    <input type="text" id="veld1"></script>
+
+
+
+
+              <a href="#"><button class="detail-button">Bekijk een voorbeeld website</button></a>
+            </section>
+          </details>
+
+          <details>
+            <summary>
+              <i class="fa-solid fa-caret-down"></i>
+              <h3>Als veelgevraagde gegevens worden verzameld in een invoerveld, zorg dan dat het doel in de code is
+                vastgelegd</h3>
+              <label><input type="checkbox">
+                <i class="fa-solid fa-check"></i>
+              </label>
+            </summary>
+
+            <section class="detail-list">
+              <p>Vaak moeten in formulieren gegevens worden ingevuld die bij veel andere formulieren ook worden
+                gevraagd. Dit geldt voor veelgevraagde gegevens zoals naam, e-mailadres en telefoonnummer.
+                <br><br>
+                Het doel van een invoerveld kan worden vastgelegd in de code. Hierdoor begrijpen browsers welke gegevens
+                er worden gevraagd. Een browser kan het formulier dan al (deels) automatisch zelf invullen. Dit is
+                handig voor alle bezoekers, maar voor bezoekers met een motorische beperking is dit nog belangrijker.
+                Het invullen van een formulier kan hen veel tijd kosten.
+                <br><br>
+                Gebruik hiervoor het <code>&lt;autocomplete&gt;</code>-attribuut in de code om het doel van het
+                invoerveld toe te voegen aan
+                het <code>&lt;input&gt;</code>-element.
+              </p>
+              <p>In de code ziet dat er zo uit:</p>
+              <script type="text/plain" class="language-html"><label for="veld1">Naam:</label>
+                <input type="text" id="veld1" autocomplete="name">
+                
+                <label for="veld2">Geboortedatum:</label>
+                <input type="text" id="veld2" autocomplete="bday"></script>
+
+            </section>
+          </details>
+
+          <details>
+            <summary>
+              <i class="fa-solid fa-caret-down"></i>
+              <h3>Als een formulierveld verkeerd is ingevuld, benoem dan waar de fout zit en beschrijf wat de fout is
+              </h3>
+              <label><input type="checkbox">
+                <i class="fa-solid fa-check"></i>
+              </label>
+            </summary>
+
+            <section class="detail-list">
+              <p>Bij formulieren hoort een foutcontrole ingebouwd te zijn. De foutcontrole controleert automatisch of
+                een verplicht onderdeel leeg is gelaten of dat een invoerveld verkeerd is ingevuld. Als er een fout is
+                gevonden, dan moet de foutmelding in tekst worden weergegeven. Deze tekst kan worden aangevuld met
+                andere visuele aanwijzingen, zoals een andere kleur of een icoon.
+                <br><br>
+                Benoem in de tekst van de foutmelding de naam van het veld dat verkeerd is ingevuld en benoem precies
+                wat de fout is. Schrijf dus niet:
+              </p>
+              <ul>
+                <li>Dit veld is verplicht.</li>
+                <p>Maar schrijf:</p>
+                <li>Het veld ‘Telefoonnummer’ mag niet leeg zijn.</li>
+              </ul>
+
+              <p>In de code kan ook worden aangegeven welk veld verkeerd is ingevuld. Gebruik hiervoor het attribuut
+                <code>&lt;aria-invalid&gt;</code> . Daarnaast hoort de foutmelding in de code aan het bijbehorende
+                invoerveld te worden
+                gekoppeld. Dit voorkomt verwarring bij bezoekers die gebruik maken van hulptechnologieën. Een
+                foutmelding kan op een aantal manieren worden gekoppeld zoals met een
+                <code>&lt;aria-describedby&gt;</code>-attribuut.
+              </p>
+              <br><br>
+              <p>In de code ziet dat er zo uit:
+              </p>
+              <script type="text/plain" class="language-html"><label for="veld1">Telefoonnummer:</label>
+                <input type="text" id="veld1" aria-invalid="true" aria-describedby="fout">
+                <span id="fout">Het veld ‘Telefoonnummer’ mag niet leeg zijn.</span></script>
+            </section>
+          </details>
+
+          <details>
+            <summary>
+              <i class="fa-solid fa-caret-down"></i>
+              <h3>Als een formulierveld verkeerd is ingevuld, geef suggesties ter verbetering als dit mogelijk is</h3>
+              <label><input type="checkbox">
+                <i class="fa-solid fa-check"></i>
+              </label>
+            </summary>
+
+            <section class="detail-list">
+              <p>Als er een fout is gevonden en suggesties voor verbetering zijn bekend, dan moeten deze suggesties aan
+                de bezoeker worden getoond. De suggesties kunnen worden gebruikt om beter te begrijpen wat er precies
+                ingevuld moet worden.
+                <br><br>
+                Bij veel invoervelden is bekend in welk formaat het ingevuld moet worden. Zo bestaat in Nederland een
+                telefoonnummer uit 10 cijfers en een postcode uit 4 cijfers en 2 letters. Een goede foutmelding bestaat
+                dan uit de mededeling dat het veld ‘telefoonnummer’ niet juist is ingevuld, en dat een telefoonnummer
+                uit 10 cijfers bestaat.
+              </p>
+              <ul>
+                <p>Schrijf dus niet:</p>
+                <li>Dit veld is niet juist ingevuld.</li>
+                <p>Maar schrijf:</p>
+                <li>Geboortedatum is niet juist ingevuld. Gebruik het formaat dd-mm-jjjj.</li>
+                <li>Het veld ‘Telefoonnummer’ is niet juist ingevuld. Een telefoonnummer bestaat uit 10 cijfers.</li>
+              </ul>
+            </section>
+          </details>
+
+          <details>
+            <summary>
+              <i class="fa-solid fa-caret-down"></i>
+              <h3>Zorg voor een extra controle bij het insturen van belangrijke formulieren</h3>
+              <label><input type="checkbox">
+                <i class="fa-solid fa-check"></i>
+              </label>
+            </summary>
+
+            <section class="detail-list">
+              <p>Als er door het insturen van een formulier een onomkeerbare actie wordt uitgevoerd die grote gevolgen
+                kan hebben, dan moet er voor worden gezorgd dat bezoekers de inzending kunnen annuleren, controleren of
+                bevestigen.
+                <br><br>
+                Bezoekers met een functiebeperking lopen vaak meer risico om fouten te maken. Mensen met dyslexie kunnen
+                letters en cijfers omdraaien en mensen met motorische stoornissen kunnen per ongeluk toetsen aanslaan.
+                Eigenlijk hebben alle bezoekers profijt van de mogelijkheid om ernstige fouten te voorkomen.
+              </p>
+              <br><br>
+              <p>Bij een formulier waarmee een wettelijke of financiële transactie wordt gedaan, kun je één van de
+                volgende technieken toepassen:</p>
+              <ul>
+                <li>Geef de bezoeker na verzending van het formulier een bepaalde tijd om de inzending te wijzigen of
+                  annuleren.</li>
+                <li>Toon voordat het formulier wordt verzonden een overzicht van de ingevulde gegevens en bied de
+                  bezoeker de mogelijkheid om deze te verbeteren.</li>
+                <li>Voeg een selectievakje toe aan het formulier waarmee de bezoeker aan kan geven dat hij de gegevens
+                  heeft gecontroleerd en dat deze correct zijn, voordat hij het formulier verzendt.</li>
+              </ul>
+
+              <br><br>
+              <p>Bij een formulier waarmee de bezoeker gegevens kan wijzigen of verwijderen, zoals profielgegevens op
+                een website, kun je één van de volgende technieken toepassen:</p>
+              <ul>
+                <li>Bied de mogelijkheid om verwijderde gegevens terug te halen.</li>
+                <li>Vraag bevestiging om door te gaan met de actie van het wijzigen of verwijderen.</li>
+                <li>Voeg een selectievakje toe aan het formulier waarmee de bezoeker aan kan geven dat hij de gegevens
+                  heeft gecontroleerd en dat deze correct zijn, voordat hij het formulier verzendt.</li>
+              </ul>
+
+              <br><br>
+              <p>Bij een formulier waarmee de bezoeker antwoorden kan geven op vragen uit een test, toets of examen, kun
+                je één van de volgende technieken toepassen:</p>
+              <ul>
+                <li>Bied de mogelijkheid om antwoorden te controleren en verbeteren voordat ze worden verzonden.</li>
+                <li>Vraag bevestiging om door te gaan met het inzenden van het antwoord.</li>
+              </ul>
+            </section>
+          </details>
+
+          <details>
+            <summary>
+              <i class="fa-solid fa-caret-down"></i>
+              <h3>Zorg dat een tijdslimiet kan worden uitgezet, aangepast of worden verlengt</h3>
+              <label><input type="checkbox">
+                <i class="fa-solid fa-check"></i>
+              </label>
+            </summary>
+
+            <section class="detail-list">
+              <p>Soms moeten formulieren binnen een bepaalde tijd worden ingevuld of verloopt een inlogsessie na een
+                bepaalde termijn. Zo’n tijdslimiet is niet handig voor bezoekers die meer tijd nodig hebben.
+                Bijvoorbeeld omdat zij gebruik maken van hulptechnologieën of omdat zij door een cognitieve beperking
+                meer tijd nodig hebben om tekst te lezen. Zorg daarom dat er geen tijdslimiet wordt gebruikt. Als het
+                echt niet anders kan, geef bezoekers dan de mogelijkheid om de tijdslimiet aan te passen. Dit kan op één
+                van de volgende manieren:</p>
+
+              <ul>
+                <li>Uitzetten: Laat bezoekers de tijdslimiet uitzetten voordat het begint.
+                </li>
+                <li>Aanpassen: Laat bezoekers de tijdslimiet aanpassen tot ten minste 10 keer de tijdslimiet voordat het begint.</li>
+                <li>Verlengen: Geef bezoekers een waarschuwing voordat de tijd afloopt en geef ze tenminste 20 seconden om de tijdslimiet te verlengen. Laat de bezoeker dit ten minste 10 keer doen.</li>
+              </ul>
+
+              <br><br>
+              <p>Niet bij alle tijdslimieten is het nodig dat deze kan worden uitgezet, aangepast of worden verlengt. Er zijn namelijk een paar uitzonderingen:</p>
+              <ul>
+                <li>Real-time: Als de tijdslimiet onderdeel is van een real-time gebeurtenis, zoals het bieden in veiling, en er geen alternatief voor de tijdslimiet mogelijk is.</li>
+                <li>Essentieel: Als de tijdslimiet zelf essentieel is, zoals bij een toets die in een bepaalde tijd moet worden gemaakt, en verlenging de activiteit ongeldig zou maken.</li>
+                <li>Langer dan 20 uur: Als de tijdslimiet langer is dan 20 uur.
+                </li>
+              </ul>
+            </section>
+          </details>
+
+          <details>
+            <summary>
+              <i class="fa-solid fa-caret-down"></i>
+              <h3>Maak bezoekers bewust van veranderingen in de inhoud</h3>
+              <label><input type="checkbox">
+                <i class="fa-solid fa-check"></i>
+              </label>
+            </summary>
+
+            <section class="detail-list">
+              <p>Veranderingen in de inhoud van een pagina worden aangegeven met een statusbericht. Een statusbericht voegt nieuwe informatie toe aan de pagina. Het geeft de bezoeker bijvoorbeeld informatie over de resultaten van een actie, over de voortgang van een laadtijd of een waarschuwing over eventuele fouten in een formulier. Deze informatie is belangrijk voor iedereen. Deze informatie moet dus ook beschikbaar worden gemaakt voor een bezoeker die gebruik maakt van hulptechnologieën.
+                <br><br>
+                Hulptechnologie synchroniseert continu met het DOM en merkt de wijziging dus wel op, maar de bezoeker die hiervan gebruik maakt wordt er nietover geïnformeerd. Met het attribuut aria-live wordt een blok een live region. Deze informatie moeten in de code worden opgemaakt zodat ze de aandacht krijgen van hulptechnologieën op een manier die de bezoeker niet onnodig onderbreekt.</p>
+
+              <ul>
+                <li>Bij succes of informatie over voortgang wordt dit gedaan met ARIA <code>&lt;role="status"&gt;</code> of <code>&lt;aria-live="polite"&gt;</code> .</li>
+                <li>Bij waarschuwing wordt dit gedaan met ARIA <code>&lt;role="alert"&gt;</code> of <code>&lt;aria-live="assertive"&gt;</code> .</li>
+              </ul>
+              <script type="text/plain" class="language-html"><div role="status">
+                <p>Je instellingen zijn opgeslagen.</p>
+              </div></script>
+              <p>
+                Standaard zal hulptechnologie alleen de gewijzigde tekst voorlezen. Als toch het hele blok moet worden voorlezen, voeg dan aria-atomic=”true” toe.
+              </p>
+            </section>
+          </details>
+
+          <details>
+            <summary>
+              <i class="fa-solid fa-caret-down"></i>
+              <h3>Laat een formulierveld dat focus krijgt of ingevuld wordt niet zomaar een grote gebeurtenis in gang zetten</h3>
+              <label><input type="checkbox">
+                <i class="fa-solid fa-check"></i>
+              </label>
+            </summary>
+
+            <section class="detail-list">
+              <p>Laat geen grote gebeurtenis plaatsvinden als een bezoeker een veld invoerveld invult, een selectievakje of keuzerondje aanklikt of een waarde kiest uit een keuzelijst, tenzij de bezoeker vooraf is geïnformeerd. Voor veel bezoekers kan een onverwachte gebeurtenis verwarrend zijn. Bezoekers met een visuele beperking kunnen de wijziging misschien niet zien. Bezoekers die alleen met het toetsenbord navigeren kunnen hierdoor moeite hebben met de bediening van de website. Laat de bezoeker daarom zelf op een knop klikken om de gebeurtenis in gang te zetten.
+                <br><br>
+                Grote gebeurtenissen worden contextwijzigingen genoemd. Contextwijzigingen zijn bijvoorbeeld:</p>
+
+              <ul>
+                <li>het automatisch inzenden van een formulier;
+                </li>
+                <li>het openen van een venster;
+                </li>
+                <li>het veranderen van de focus naar een ander onderdeel.
+                </li>
+              </ul>
+            
+              <p>
+                Er mag ook geen contextwijziging plaatsvinden door het veranderen van de focus.
+              </p>
+            </section>
+          </details>
+        </div>
+      </div>
+
+      <div class="progresion">test</div>
+      </details>
+
+
+  </main>
+
+  <footer>
+    <section class="vervoerregio-path-box-footer">
+      <div class="vervoerregio-path-footer">
+        <?xml version="1.0" encoding="UTF-8"?>
+        <svg id="Laag_1" data-name="Laag 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 4 2">
+          <path d="M4,0H0c2,0,2,2,4,2" />
+        </svg>
+      </div>
+      <div class="width-footer"></div>
+      <div class="responsive-width-footer"></div>
+    </section>
+    <Section class="footer-content">
+      <div class="regio-logo"> <img src="assets/illustraties/vervoerregio's.svg" alt=""> </div>
+      <div class="contact">
+        <div>
+          <h4>Contact</h4>
+          <ul class="ul-footer">
+            <li>Vervoerregio<br> Jodenbreestraat 25<br> 1011 NH Amsterdam</li>
+            <li>Postbus 626<br> 1000 AP Amsterdam</li>
+            <li>020-5273700</li>
+            <li>info@vervoerregio.nl</li>
+            <li>Aanmelden Nieuwsbrief</li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bericht">
+        <h4>Verstuur een bericht</h4>
+        <form action="/action_page.php">
+          <div class="footer-naam-form">
+            <label>Voor naam<input type="text" id="fname" name="firstname" placeholder="Sascha"></label>
+            <label>achternaam<input type="text" id="lname" name="lastname" placeholder="Davidson"></label>
+          </div>
+          <label>Bericht<textarea placeholder="Berijk ons met al je vragen"></textarea></label>
+          <input type="submit" value="Verstuur">
+        </form>
+      </div>
+    </Section>
+    <section class="sub-footer">
+      <p>© Copyright 2022 Vervoerregio Amsterdam</p>
+      <ul>
+        <li><a href="#"> Algemene voorwaarden</a></li>
+        <li><a href="#"> Disclaimer</a></li>
+        <li><a href="#"> Privacyverklaring</a></li>
+        <li><a href="#"> Cookieverklaring</a></li>
+      </ul>
+    </section>
+  </footer>
+
+
+  <script src="scripts/script.js" charset="utf-8"></script>
+  <script src="scripts/prism.js"></script>
+
+</body>
+
+</html>
